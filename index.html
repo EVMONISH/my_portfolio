@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Monish | Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="loading-state">
+
+    <!-- Preloader -->
+    <div id="preloader" class="d-flex flex-column align-items-center justify-content-center">
+        <div class="laptop-loader-container mb-4">
+            <div class="laptop-screen">
+                <div class="laptop-text font-monospace fs-4">
+                    <span class="text-white">EV</span> <span style="color: #6b8cff;">MONISH</span>
+                </div>
+            </div>
+            <div class="laptop-base"></div>
+        </div>
+        <div class="booting-text font-monospace" style="color: #6b8cff; font-size: 0.95rem; letter-spacing: 1.5px;">
+            Booting Portfolio System <span class="blink">...</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" data-aos="fade-down" data-aos-duration="1000">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-dynamic fs-4 serif-font" href="#">EM.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fa-solid fa-bars text-dynamic"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <button id="themeToggle" class="btn btn-link nav-link"><i class="fa-solid fa-moon"></i></button>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#contact" class="btn btn-outline-light rounded-pill px-4 nav-cta-btn">Let's Talk</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center min-vh-100 position-relative pt-5 overflow-hidden">
+        <div class="container pt-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-6 hero-content z-2" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="500">
+                    <p class="text-accent fw-medium mb-2 letter-spacing-1 text-uppercase">Hello, I'm</p>
+                    <h1 class="display-3 fw-bold serif-font text-white mb-3 text-glow">EV Monish</h1>
+                    <h3 class="fs-4 mb-4 fw-light text-light">I am a <span class="typewriter text-accent" data-words="Full Stack Developer,Freelancer,Designer"></span><span class="cursor">|</span></h3>
+                    <p class="lead text-muted-custom mb-5 fs-6 lh-lg">
+                        A passionate Computer Science student and Full Stack Developer skilled in building scalable web applications. I turn complex problems into simple, elegant solutions using modern technologies.
+                    </p>
+                    <div class="d-flex gap-3 mb-5">
+                        <a href="#projects" class="btn btn-accent rounded-pill px-4 py-2 fw-medium shadow-accent">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-light rounded-pill px-4 py-2 fw-medium btn-hover-glass">Contact Me</a>
+                    </div>
+                    <div class="social-links d-flex gap-4 fs-4">
+                        <a href="https://www.linkedin.com/in/e-v-monish" target="_blank" class="text-white nav-link-hover hover-lift-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/EVMONISH" target="_blank" class="text-white nav-link-hover hover-lift-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="mailto:evmonish26@gmail.com" class="text-white nav-link-hover hover-lift-icon"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+918884697226" class="text-white nav-link-hover hover-lift-icon"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 hero-image-wrapper mt-5 mt-lg-0 text-center z-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="700">
+                    <div class="hero-image-circle mx-auto floating-anim">
+                        <img src="images/profile.jpeg" alt="EV Monish Profile" class="img-fluid rounded-circle object-fit-cover w-100 h-100 shadow-lg profile-img-border profile-crop">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator position-absolute bottom-0 start-50 translate-middle-x mb-4 text-center">
+            <a href="#about" class="text-dynamic text-decoration-none">
+                <div class="mouse-icon border border-dynamic rounded-pill mx-auto mb-2 opacity-75 hover-opacity-100 transition-all">
+                    <span class="wheel bg-dynamic rounded-circle d-block mx-auto mt-2"></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-100 section-bg-alt overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center custom-gap">
+                <div class="col-lg-5 position-relative" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-img-wrapper position-relative z-1 image-tilt hover-glow">
+                        <img src="images/about_workspace_1774780234049.png" alt="Workspace" class="img-fluid rounded shadow-lg w-100 object-fit-cover border-radius-custom">
+                        <div class="about-img-border position-absolute border border-3 border-accent rounded z-n1"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 ms-auto mt-5 mt-lg-0" data-aos="fade-left" data-aos-duration="1000">
+                    <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase">About Me</p>
+                    <h2 class="serif-font display-5 fw-bold text-dynamic mb-4 lh-sm">Innovation, Leadership, &<br>Technical Excellence</h2>
+                    <p class="text-muted-custom mb-3 lh-lg">
+                        I am currently pursuing a B.Tech in Computer Science and Engineering at Lovely Professional University (8.0 CGPA). I specialize in the MERN stack and have a strong foundation in Data Structures and Algorithms.
+                    </p>
+                    <p class="text-muted-custom mb-5 lh-lg">
+                        Beyond coding, I am a dedicated problem solver. I've resolved over 250+ DSA problems across platforms like LeetCode and Coding Ninjas, and secured 1st rank among 1400+ students in competitive programming.
+                    </p>
+                    <div class="row g-4 mb-5 text-dynamic">
+                        <div class="col-sm-6 d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-graduation-cap text-accent fs-3 drop-shadow"></i>
+                            <span class="fw-medium">B.Tech CSE (LPU)</span>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-laptop-code text-accent fs-3 drop-shadow"></i>
+                            <span class="fw-medium">Full Stack Dev</span>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-trophy text-accent fs-3 drop-shadow"></i>
+                            <span class="fw-medium">Top Coder Rank 1</span>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-brain text-accent fs-3 drop-shadow"></i>
+                            <span class="fw-medium">250+ DSA Problems</span>
+                        </div>
+                    </div>
+                    <a href="CV/Updated CV 12319258.pdf" download class="btn btn-accent rounded-pill px-5 py-2 fw-bold shadow-accent">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-100">
+        <div class="container text-center">
+            <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase" data-aos="fade-up">What I Do</p>
+            <h2 class="serif-font display-5 fw-bold text-dynamic mb-5 pb-3" data-aos="fade-up" data-aos-delay="100">My Services <hr class="divider mx-auto mt-3 border-accent"></h2>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card p-5 rounded h-100 hover-lift text-white text-center glass-card">
+                        <i class="fa-solid fa-terminal text-accent display-4 mb-4 floating-icon"></i>
+                        <h4 class="serif-font fw-bold mb-3">Backend Excellence</h4>
+                        <p class="text-muted-custom mb-0 text-sm lh-lg">Designing robust scalable APIs and backend architectures using Node.js, Express, MongoDB, and PostgreSQL for optimal performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card service-card-featured p-5 rounded h-100 hover-lift text-white text-center position-relative glass-card-featured">
+                        <i class="fa-solid fa-layer-group text-white display-4 mb-4 floating-icon"></i>
+                        <h4 class="serif-font fw-bold mb-3">Full Stack Solutions</h4>
+                        <p class="text-light opacity-75 mb-0 text-sm lh-lg">End-to-end web applications with the MERN stack, ensuring seamless integration and data flow between frontend and backend.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card p-5 rounded h-100 hover-lift text-white text-center glass-card">
+                        <i class="fa-solid fa-code text-accent display-4 mb-4 floating-icon"></i>
+                        <h4 class="serif-font fw-bold mb-3">Problem Solving</h4>
+                        <p class="text-muted-custom mb-0 text-sm lh-lg">Writing efficient C++/Java algorithms, optimizing time & space complexities. Ranked #1 among 1400+ peers in competitive programming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-100 section-bg-alt">
+        <div class="container text-center">
+            <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase" data-aos="fade-up">My Arsenal</p>
+            <h2 class="serif-font display-5 fw-bold text-dynamic mb-5 pb-3" data-aos="fade-up" data-aos-delay="100">Technical Skills <hr class="divider mx-auto mt-3 border-primary"></h2>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Logic & Languages -->
+                <div class="col-lg-4 col-md-6" data-aos="flip-left" data-aos-delay="200">
+                    <div class="skill-card p-4 rounded h-100 text-white glass-card transition-all">
+                        <h5 class="serif-font fw-bold mb-4 text-glow-light">Languages & Logic</h5>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-solid fa-c me-2 text-primary"></i>C</span>
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-solid fa-code me-2 text-info"></i>C++</span>
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-brands fa-java me-2 text-danger"></i>Java</span>
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill text-accent fw-bold border border-accent glow-border">DSA</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Development -->
+                <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="300">
+                    <div class="skill-card p-4 rounded h-100 text-white glass-card transition-all">
+                        <h5 class="serif-font fw-bold mb-4 text-glow-light">Development</h5>
+                        <div class="d-flex flex-wrap justify-content-center gap-4 fs-1 pt-2 pb-2 text-shadow-glow">
+                            <i class="fa-brands fa-react text-info floating-icon" style="animation-duration: 3s;" title="React.js"></i>
+                            <i class="fa-brands fa-node-js text-success floating-icon" style="animation-duration: 4s;" title="Node.js"></i>
+                            <span class="fw-bold fs-3 floating-icon" style="animation-duration: 3.5s;" title="Express.js">ex</span>
+                            <i class="fa-brands fa-html5 text-danger floating-icon" style="animation-duration: 3.2s;" title="HTML5"></i>
+                            <i class="fa-brands fa-css3-alt text-primary floating-icon" style="animation-duration: 4.5s;" title="CSS3"></i>
+                            <i class="fa-brands fa-bootstrap text-purple floating-icon" style="color: #7952b3; animation-duration: 3.8s;" title="Bootstrap/Tailwind"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tools & DB -->
+                <div class="col-lg-4 col-md-6" data-aos="flip-right" data-aos-delay="400">
+                    <div class="skill-card p-4 rounded h-100 text-white glass-card transition-all">
+                        <h5 class="serif-font fw-bold mb-4 text-glow-light">Infrastructure & Tools</h5>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-solid fa-leaf text-success me-2"></i>MongoDB</span>
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-solid fa-database text-primary me-2"></i>PostgreSQL</span>
+                            <span class="skill-badge bg-black px-4 py-2 rounded-pill shadow-sm"><i class="fa-brands fa-git-alt text-danger me-2"></i>Git/GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-100">
+        <div class="container">
+            <div class="text-center mb-5 pb-3" data-aos="fade-up">
+                <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase">Portfolio</p>
+                <h2 class="serif-font display-5 fw-bold text-dynamic">Key Projects <hr class="divider mx-auto mt-3 border-primary"></h2>
+            </div>
+            
+            <div class="row g-5 mx-auto" style="max-width: 1100px;">
+                <!-- Project 1 -->
+                <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="project-wrapper position-relative rounded shadow-lg overflow-hidden h-100 hover-zoom glass-border">
+                        <img src="images/project_ams_1774780253825.png" class="d-block w-100 object-fit-cover transition-transform duration-500" alt="AMS Project" style="height: 420px; filter: brightness(0.6);">
+                        <div class="project-content position-absolute bottom-0 start-0 w-100 p-4 bg-dark-glass border-top border-secondary border-opacity-25 backdrop-blur">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="serif-font text-white mb-0 text-glow-light">Assessment Management System</h4>
+                                <div class="d-flex gap-3">
+                                    <a href="https://github.com/EVMONISH/Assessment-Management" target="_blank" class="text-white nav-link-hover fs-4" title="GitHub Source Code"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://assessment-management.vercel.app/" target="_blank" class="text-white nav-link-hover fs-4" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square text-accent"></i></a>
+                                </div>
+                            </div>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill mb-3 shadow-accent-sm">Aug 2025 – Jan 2026</span>
+                            <p class="text-accent fw-bold small mb-3 letter-spacing-1">React.js, Node.js, MongoDB</p>
+                            <ul class="text-muted-custom mb-0 fs-6 ps-3 text-white">
+                                <li>Engineered a scalable full-stack system to track assessments with optimal DB performance.</li>
+                                <li>Improved efficiency by enabling secure, real-time analytics data handling.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+                    <div class="project-wrapper position-relative rounded shadow-lg overflow-hidden h-100 hover-zoom glass-border">
+                        <img src="images/project_aicte_1774780274176.png" class="d-block w-100 object-fit-cover transition-transform duration-500" alt="AICTE Portal Project" style="height: 420px; filter: brightness(0.6);">
+                        <div class="project-content position-absolute bottom-0 start-0 w-100 p-4 bg-dark-glass border-top border-secondary border-opacity-25 backdrop-blur">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h4 class="serif-font text-white mb-0 text-glow-light">AICTE Curriculum Management</h4>
+                                <div class="d-flex gap-3">
+                                    <a href="https://github.com/EVMONISH/AICTE_CURRICULAM" target="_blank" class="text-white nav-link-hover fs-4" title="GitHub Source Code"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://aicte-curriculamfrontend.vercel.app/" target="_blank" class="text-white nav-link-hover fs-4" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square text-accent"></i></a>
+                                </div>
+                            </div>
+                            <span class="badge bg-primary px-3 py-2 rounded-pill mb-3 shadow-accent-sm">Dec 2024 - May 2025</span>
+                            <p class="text-accent fw-bold small mb-3 letter-spacing-1">React.js, Express.js, MongoDB, REST</p>
+                            <ul class="text-muted-custom mb-0 fs-6 ps-3 text-white">
+                                <li>Architected a scalable, role-based MERN application to govern dynamic curriculums.</li>
+                                <li>Delivered an enterprise-level digital platform, reducing manual submission errors.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="py-100 section-bg-alt pb-0 pb-md-5 overflow-hidden">
+        <div class="container">
+            <div class="text-center mb-5 pb-3" data-aos="fade-up">
+                <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase">My Journey</p>
+                <h2 class="serif-font display-5 fw-bold text-dynamic">Experience & Education <hr class="divider mx-auto mt-3 border-accent"></h2>
+            </div>
+            
+            <div class="timeline position-relative py-5 mx-auto" style="max-width: 800px;">
+                <!-- Line -->
+                <div class="timeline-line position-absolute top-0 bottom-0 start-50 translate-middle-x bg-secondary bg-opacity-25" style="width: 2px;"></div>
+                
+                <!-- Items -->
+                <div class="timeline-item row mb-5 position-relative z-1 align-items-center" data-aos="fade-right">
+                    <div class="col-6 text-end pe-4 pe-md-5">
+                        <span class="fw-bold text-accent mb-2 d-block tracking-in-expand">2020</span>
+                        <div class="timeline-card bg-dark border border-secondary border-opacity-25 p-4 rounded text-white shadow-lg d-inline-block text-end w-100 hover-glow">
+                            <h5 class="serif-font fw-bold mb-1">Matrixulation (10th)</h5>
+                            <p class="text-primary small mb-2">Narayana International School, Andhra Pradesh</p>
+                            <p class="text-light opacity-75 mb-0 small lh-lg">Completed with an impressive 93%, laying a solid foundation for my academic journey.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative d-none d-md-block">
+                        <div class="timeline-dot position-absolute top-50 start-0 translate-middle rounded-circle bg-accent border border-dark border-3 glowing-dot"></div>
+                    </div>
+                </div>
+
+                <div class="timeline-item row mb-5 position-relative z-1 align-items-center" data-aos="fade-left">
+                    <div class="col-6 position-relative d-none d-md-block">
+                        <div class="timeline-dot position-absolute top-50 start-100 translate-middle rounded-circle bg-accent border border-dark border-3 glowing-dot"></div>
+                    </div>
+                    <div class="col-6 ps-4 ps-md-5">
+                        <span class="fw-bold text-accent mb-2 d-block tracking-in-expand">2023</span>
+                        <div class="timeline-card bg-dark border border-secondary border-opacity-25 p-4 rounded text-white shadow-lg w-100 hover-glow">
+                            <h5 class="serif-font fw-bold mb-1">Intermediate (12th) - PCM</h5>
+                            <p class="text-primary small mb-2">KLE Independent PU College, Karnataka</p>
+                            <p class="text-light opacity-75 mb-0 small lh-lg">Graduated with 94% in Science (PCM), focusing intently on analytical and mathematical skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item row mb-5 position-relative z-1 align-items-center" data-aos="fade-right">
+                    <div class="col-6 text-end pe-4 pe-md-5">
+                        <span class="fw-bold text-accent mb-2 d-block tracking-in-expand">2023 - Present</span>
+                        <div class="timeline-card bg-dark border border-secondary border-opacity-25 p-4 rounded text-white shadow-lg d-inline-block text-end w-100 hover-glow">
+                            <h5 class="serif-font fw-bold mb-1 border-bottom border-accent pb-2">B.Tech in Computer Science</h5>
+                            <p class="text-white fw-medium small mb-2 mt-2">Lovely Professional University (LPU)</p>
+                            <p class="text-light opacity-75 mb-0 small lh-lg">Currently specializing in the MERN stack and DSA with a remarkably strong academic record (8.0 CGPA).</p>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative d-none d-md-block">
+                        <div class="timeline-dot position-absolute top-50 start-0 translate-middle rounded-circle bg-accent border border-dark border-3 glowing-dot"></div>
+                    </div>
+                </div>
+
+                <div class="timeline-item row position-relative z-1 align-items-center" data-aos="fade-left">
+                    <div class="col-6 position-relative d-none d-md-block">
+                        <div class="timeline-dot position-absolute top-50 start-100 translate-middle rounded-circle bg-accent border border-dark border-3 glowing-dot"></div>
+                    </div>
+                    <div class="col-6 ps-4 ps-md-5">
+                        <span class="fw-bold text-accent mb-2 d-block tracking-in-expand">Summer 2025</span>
+                        <div class="timeline-card bg-dark border border-secondary border-opacity-25 p-4 rounded text-white shadow-lg w-100 hover-glow">
+                            <h5 class="serif-font fw-bold mb-1">Data Structures & C++</h5>
+                            <p class="text-primary fw-medium small mb-2">Cipher Schools Training</p>
+                            <p class="text-light opacity-75 mb-0 small lh-lg">Strengthened algorithm design, analyzed space-time complexities, and built a dynamic Event Reminder app.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements & Certifications -->
+    <section class="py-100 section-bg-alt pt-0">
+        <div class="container pt-5 border-top border-secondary border-opacity-25">
+             <div class="row g-5">
+                 <div class="col-md-6 text-dynamic pe-lg-5" data-aos="fade-up" data-aos-delay="100">
+                     <h4 class="serif-font fw-bold text-accent mb-4 text-glow-light">Achievements & Activities</h4>
+                     <ul class="list-unstyled lh-lg">
+                         <li class="d-flex align-items-baseline mb-4 glass-list-item p-3 rounded">
+                             <i class="fa-solid fa-trophy text-accent me-3 fs-5 drop-shadow"></i>
+                             <span class="fw-medium text-dynamic">Secured 1st rank among 1400+ students at LPU in competitive programming.</span>
+                         </li>
+                         <li class="d-flex align-items-baseline mb-4 glass-list-item p-3 rounded">
+                             <i class="fa-solid fa-code text-accent me-3 fs-5 drop-shadow"></i>
+                             <span class="fw-medium text-dynamic">Consistently solved 250+ DSA problems heavily focused on LeetCode and Coding Ninjas.</span>
+                         </li>
+                         <li class="d-flex align-items-baseline mb-4 glass-list-item p-3 rounded">
+                             <i class="fa-solid fa-medal text-accent me-3 fs-5 drop-shadow"></i>
+                             <span class="fw-medium text-dynamic">Maintained consistent high performance spanning competitive hackathons and coding assessments.</span>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="col-md-6 text-dynamic ps-lg-5 border-start-md" data-aos="fade-up" data-aos-delay="300">
+                     <h4 class="serif-font fw-bold text-accent mb-4 text-glow-light">Certifications</h4>
+                     <ul class="list-unstyled lh-lg">
+                        <li class="d-flex align-items-center mb-4 glass-list-item p-3 rounded">
+                            <i class="fa-solid fa-certificate text-dynamic flex-shrink-0 me-3 fs-5 drop-shadow"></i>
+                            <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157710267834368237/1-1dd11cd6-6fde-43ec-8ed8-dade3930e08b.pdf" target="_blank" class="text-info text-decoration-none nav-link-hover fw-bold link-glow">Master Generative AI & Generative AI tools</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-4 glass-list-item p-3 rounded">
+                            <i class="fa-solid fa-certificate text-dynamic flex-shrink-0 me-3 fs-5 drop-shadow"></i>
+                            <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157683688415232146/1-72ef5a5a-9774-4dad-bcca-5ccb409503c6.pdf" target="_blank" class="text-info text-decoration-none nav-link-hover fw-bold link-glow">Build Generative AI Apps & Solutions with No-Code</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-4 glass-list-item p-3 rounded">
+                            <i class="fa-solid fa-certificate text-dynamic flex-shrink-0 me-3 fs-5 drop-shadow"></i>
+                            <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_014157693153288192147/1-e3637b5b-de0b-4c23-a8e5-0ae6ae519a2d.pdf" target="_blank" class="text-info text-decoration-none nav-link-hover fw-bold link-glow">ChatGPT-4 Prompt Engineering</a>
+                        </li>
+                        <li class="d-flex align-items-center mb-4 glass-list-item p-3 rounded">
+                            <i class="fa-solid fa-certificate text-accent flex-shrink-0 me-3 fs-5 drop-shadow"></i>
+                            <a href="https://www.hackerrank.com/certificates/828f77883558" target="_blank" class="text-info text-decoration-none nav-link-hover fw-bold link-glow">SQL Mastery <span class="badge bg-secondary ms-2 small">HackerRank</span></a>
+                        </li>
+                    </ul>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-100 position-relative border-top border-secondary border-opacity-10">
+        <div class="container py-5 text-center">
+            <p class="text-accent fw-bold mb-2 small letter-spacing-1 text-uppercase" data-aos="fade-down">Contact</p>
+            <h2 class="serif-font display-5 fw-bold text-dynamic mb-5 pb-3" data-aos="zoom-in">Get In Touch <hr class="divider mx-auto mt-3 border-primary"></h2>
+
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1200">
+                <div class="col-lg-8">
+                    <form class="glass-form p-4 p-md-5 rounded shadow-lg">
+                        <div class="row g-4 mb-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control custom-input py-3 rounded-pill px-4" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control custom-input py-3 rounded-pill px-4" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control custom-input py-3 mb-4 rounded-pill px-4" placeholder="Subject" required>
+                        <textarea class="form-control custom-input py-3 mb-5 px-4" rows="5" placeholder="Message" style="border-radius: 20px;" required></textarea>
+                        
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-outline-accent rounded-pill px-4 py-2 fw-medium shadow-accent">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-4 border-top border-secondary border-opacity-25 text-center">
+        <div class="container">
+            <p class="text-muted-custom small mb-0 fw-medium letter-spacing-1">&copy; 2026 EV Monish. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

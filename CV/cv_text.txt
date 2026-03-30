@@ -1,0 +1,65 @@
+ EV MONISH  
+Linked In:  https://www.linkedin.com/in/e -v-monish  Emai l : evmonish26@gmail.com  
+  Github    :  https://github.com/EVMONISH  Mobile:            +918884697226  
+ 
+SKILLS  
+Languages         : C++, C, Java  
+Web Frameworks & Technologies : React.js,  Node.js,  Express.js,  HTML,  Tailwind CSS, CSS.  
+Database Skills :         MongoDB, PostgreSQL  
+  Tools/Platforms  : Visual Studio  Code, Git  and GitHub,  XAMPP Server, MySQL Workbench , POSTMAN . 
+  Soft Skills           : Problem -Solving,  Leadership,  Team-Player , Decision Making  
+ 
+PROJECTS  
+  Assessment Management System | React.js, Node.js, MongoDB, PostgreSQL    | GitHub                      Aug 2025 – Jan 2026                                                          
+ Engineered a scalable full -stack system using React.js and Node.js to create, manage,  and track assessments 
+with optimized performance and seamless user interaction.  
+ Designed and developed a responsive, user -friendly interface with React.js, ensuring smooth navigation and 
+efficient handling of assessment workflows . 
+ Improved assessment management efficiency by enabling real -time tracking, secure data handling, and 
+streamlined evaluation processes, reducing manual effort and errors.  
+ 
+AICTE Curriculum Management Portal | React.js , Node.js , Express.js,  MongoDB,  Rest API’s  | GitHub    Dec 2024 - May 2025  
+ Engineered a scalable, role -based curriculum management platform to digitize and streamline the end -to-end 
+academic workflow between AICTE and affiliated institutions . 
+ Architected a full -stack MERN application with role-based access control , enabling admins to manage curriculums 
+and institutions to map and submit data for approval.  
+ Enhanced operational efficiency and transparency by delivering a centralized digital platf orm, significantly reducing 
+manual errors and streamlining curriculum approval processes.  
+ 
+TRAINING  
+Cipher  Schools  (Edtech  Company)                                                                                                   Jun 2025 - Jul 2025 
+ Data Structures and Algorithms with C++  
+ Acquired practical knowledge of data structures such as arrays, linked lists, stacks, queues, and trees  through 
+implementation in C++ . 
+ Strengthened understanding of algorithm design techniques like sorting, searching, and  recursion for efficient 
+problem -solving.  
+ Gained experience in time and space complexity analysis to optimize code performance.  
+ Developed an “Event Reminder” project using C++ classes, file handling, and data structures to store, manage, 
+and display event details  efficiently . 
+ 
+CERTIFICAT IONS  
+Master Generative AI & Generative AI tools  |  verify certificate                                                                           Aug 2025  
+  Build Generative AI Apps and Solutions with No -Code Tools  |  verify certificate                                                 Aug 2025  
+  ChatGPT -4 Prompt  Engineering: ChatGPT, Generative AI & LLM  | verify certificate                                          Aug 2025  
+  SQL | verify certificate                                                                                                                                          Aug 2025  
+                                                                                                                                                   
+   ACHIEVEMENTS  
+ Solved 250+ DSA problems  on platforms like LeetCode  and Coding Ninjas , improving problem -solving efficiency 
+and coding proficiency.  
+ Maintained consistent high performance  in coding assessments and hackathons, demonstrating strong analytical 
+and logical reasoning skills . 
+ Secured 1st rank among 1400+ students at Lovely Professional University  in competitive programming, 
+highlighting advanced algorithmic and problem -solving skills . 
+ 
+EDUCATION  
+Lovely  Professional  University   Phagwara,  Punjab  
+Bachelor  of Technology                                                                                                                      Octob er 2023  - Present  
+Computer  Science  and Engineering;  CGPA:  8.0 
+ 
+KLE Independent PU College         Karnataka, India  
+Intermediate                                                                                                                                     June 2021  - May 2023  
+   PCM;  Percentage:  94% 
+ 
+Narayana International School                                                                                                     Andhra Pradesh, India  
+Matriculation                                                                                                                                 June 2019  - March 2020  
+Percentage:  93% 
